@@ -1,0 +1,113 @@
+
+body{
+    background-color: #d1e4f4;
+
+    
+
+}
+
+main{
+    >section{
+        >div{
+            >section{
+                border-radius: 10px;
+                >button{
+                    background: none;
+                    border: none;
+                    outline: none;
+                    transition:  .4s;
+                    width: 100%;height: 100%;
+                   
+                    >i{
+                        width: 100%;
+                        height: 100%;
+                        font-size: 40px;
+                        color: #fcfcfc;
+                        font-weight: bold;
+                        background: #295a3c;
+                        border-radius: 5px;
+                        &:hover{
+                            background-color: #2b9656;
+                        }
+                    }
+                }
+
+                &:nth-of-type(1){
+                    box-shadow: 0 0 2px 1px #ffffffee;
+                    >input{
+                        height: 100%;
+                        border: none;
+                        outline: none;
+                        background: none;
+                       &::placeholder{
+                        font-size: 25px;
+                        
+                       }
+                    }
+                }
+                &:nth-of-type(2){
+                    box-shadow: 0 0 2px 1px #ffffffee;
+                            >select{
+                                height: 100%;
+                                background: none;
+                                outline: none;
+                                border: none;
+                                 cursor: pointer;
+                                >option{
+                                    background: none;
+                                }
+                            }
+                }
+               
+            }
+        }
+       
+    }
+}
+
+._ul{
+  border-radius: 10px;
+        >li{
+            transition: .4s;
+            height: 70px !important;
+        
+           border-radius: 10px;
+                >div{
+                    font-size: 29px;
+                    border-radius: 8px;
+                    height: 100% !important;
+                     box-shadow: 0 0 1px 1px #ffffff;
+                } 
+               
+                i{
+                   height: 100%;
+                    border-radius: 8px;
+                    font-size: 30px;
+                    color: #fcfcfc;
+                    transition: .4s;
+                    &:nth-of-type(1){
+                        background: #295a3c;
+                         
+                        &:hover{
+                           background-color: #7fb796;
+                        }
+                    }
+                    &:nth-of-type(2){
+                        background: #9f0a1e;
+                         
+                        &:hover{
+                           background-color: #bf7780;
+                        }
+                    }
+                }
+                   
+                 } 
+        }
+
+
+        .completed{
+            text-decoration: line-through;
+            background-color: #65927871;
+              opacity: .6;
+        
+        }

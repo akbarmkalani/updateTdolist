@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoList</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- style -->
+    <link rel="stylesheet" href="assets/master/style.css">
+</head>
+<body>
+    
+  <main class="container">
+      <section class="col-10 mx-auto py-5">
+        <div class="col-12 text-center">
+            <h1 class="">To Do List</h1>
+        </div>
+        <div class="row my-5 justify-content-around px-0 mx-0">
+            <section class="col-8 border row justify-content-around">
+                <input class=" input-value col-11 border" type="text" placeholder="Enter your text">
+                <button class="btn col-1" >
+                  <i class="bi bi-plus"></i>
+                 </button>
+            </section>
+            <section class="col-3 border d-flex justify-content-center
+                align-items-center ">
+                  <select name="todolist" id="filter" class="w-100">
+                    <option value="all">all</option>
+                    <option value="completed">completed</option>
+                    <option value="uncompleted">uncompleted</option>
+                  </select>
+                 <!--  <i class="bi bi-caret-down-fill"></i> -->
+            </section>
+        </div>
+          <div  class="row   px-0 mx-0">
+            <ul  class="_ul col-9 " id="list" >
+                
+            </ul>
+          </div >
+      </section>
+
+    
+  </main>
+
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
